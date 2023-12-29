@@ -59,7 +59,7 @@ model User {
   gender         Gender         @default(male)
   age            Int?           @default(18)
   avatar         String?
-  role           Role           @default(user)
+  role           Role           @default(admin)
   status         Account_status @default(actived)
   workingMode    Boolean?       @default(false)
   post           Post[]
